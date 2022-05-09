@@ -1,0 +1,161 @@
+INFO [05-04|15:11:03.812] Starting pprof server                    addr=http://0.0.0.0:9545/debug/pprof
+INFO [05-04|15:11:03.813] Enabling metrics collection 
+INFO [05-04|15:11:04.343] Target Private Tx Manager                name=Tessera distributionVersion=22.1.0
+INFO [05-04|15:11:04.382] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [05-04|15:11:04.384] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [05-04|15:11:04.384] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+WARN [05-04|15:11:04.387] Found deprecated node list file /data/static-nodes.json, please use the TOML config file instead. 
+INFO [05-04|15:11:04.396] Enabling recording of key preimages since archive mode is used 
+INFO [05-04|15:11:04.631] Tessera API version: 5.0 
+INFO [05-04|15:11:04.633] Target Private Tx Manager                name=Tessera distributionVersion=22.1.0
+INFO [05-04|15:11:04.783] Opened ancient database                  database=/data/geth/chaindata/ancient
+INFO [05-04|15:11:04.786] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 IsQuorum: true Constantinople: 0 TransactionSizeLimit: 64 MaxCodeSize: 0 Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Berlin: <nil> YOLO v3: <nil> PrivacyEnhancements: 0 PrivacyPrecompile: <nil> Engine: istanbul}"
+INFO [05-04|15:11:04.788] Initialising Ethereum protocol           network=1337 dbversion=8
+INFO [05-04|15:11:05.295] Loaded local transaction journal         transactions=0 dropped=0
+INFO [05-04|15:11:05.303] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [05-04|15:11:05.313] permission-config.json file is missing. Smart-contract-based permission service will be disabled error="stat /data/permission-config.json: no such file or directory"
+INFO [05-04|15:11:05.386] Started P2P networking                   self="enode://af19c92deb635bd7720634de9b2e7908208530d6f5e96eee003a8f1799e5be4037957d7e2fdbe3605e3a38dab05c961679c02133a0e624e23a72f7961e8af6ac@127.0.0.1:30303?discport=0"
+INFO [05-04|15:11:05.409] Security: TLS not enabled                endpoint=0.0.0.0:8545 reason="no TLSConfigurationSource found"
+INFO [05-04|15:11:05.435] Security: TLS not enabled                endpoint=0.0.0.0:8546 reason="no TLSConfigurationSource found"
+INFO [05-04|15:11:05.436] WebSocket enabled                        url=ws://[::]:8546
+WARN [05-04|15:11:05.673] full p2p peer                            id=58e94810eeee14c28613b47e93917cadbace5dfce132b991732c6cda9bcc5b8a ethPeer="Peer 58e94810eeee14c2 172.16.239.11:30303"
+INFO [05-04|15:11:05.684] Block synchronisation started 
+INFO [05-04|15:11:07.501] Imported new chain segment               blocks=14 txs=0 mgas=0.000 elapsed=1.407s mgasps=0.000 number=1605 hash="04f367…7899be" dirty=0.00B     ignored=1
+WARN [05-04|15:11:08.763] full p2p peer                            id=77e699b8a5282fa3837e39b3e090a28b8a9d0a69ec259cb745036d5d1030e3ea ethPeer="Peer 77e699b8a5282fa3 172.16.239.17:49628"
+INFO [05-04|15:11:12.093] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=11.694ms mgasps=0.000 number=1607 hash="69b650…a65bc9" dirty=0.00B
+WARN [05-04|15:11:19.943] Block sealing failed                     err=unauthorized
+INFO [05-04|15:11:22.623] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=1.485ms     mgasps=0.000 number=1609 hash="24777c…721a2f" dirty=0.00B
+INFO [05-04|15:11:27.090] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1610 state="Accept request"
+INFO [05-04|15:11:27.092] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1610 target.round=0 lastProposal.number=1610 lastProposal.hash="f27644…fa6d73"
+INFO [05-04|15:11:52.186] Commit new mining work                   number=1616 sealhash="29fa0d…bff375" uncles=0 txs=0 gas=0 fees=0 elapsed="569.965µs"
+WARN [05-04|15:11:52.186] Block sealing failed                     err=unauthorized
+INFO [05-04|15:11:52.225] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1615 target.round=0 lastProposal.number=1615 lastProposal.hash="b7c8ad…7fcde9"
+INFO [05-04|15:12:02.673] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1617 old.state="Accept request" old.proposer=0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 next.round=0 next.seq=1618 next.proposer=0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+INFO [05-04|15:12:07.118] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=1.997ms     mgasps=0.000 number=1618 hash="5d0230…b3eeb4" dirty=0.00B
+WARN [05-04|15:12:07.132] Block sealing failed                     err=unauthorized
+INFO [05-04|15:12:12.214] Commit new mining work                   number=1620 sealhash="090e1c…54f51d" uncles=0 txs=0 gas=0 fees=0 elapsed=79.555ms
+INFO [05-04|15:12:17.105] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=15.064ms    mgasps=0.000 number=1620 hash="3d3d1b…ea2d05" dirty=0.00B
+INFO [05-04|15:12:17.140] Commit new mining work                   number=1621 sealhash="741d7a…fdf50f" uncles=0 txs=0 gas=0 fees=0 elapsed=31.829ms
+WARN [05-04|15:12:17.195] Block sealing failed                     err=unauthorized
+INFO [05-04|15:12:22.334] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=42.179ms    mgasps=0.000 number=1621 hash="af3dcd…f8394c" dirty=0.00B
+INFO [05-04|15:12:22.344] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1621 state="Accept request"
+WARN [05-04|15:12:22.349] Block sealing failed                     err=unauthorized
+INFO [05-04|15:12:37.314] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1624 state="Accept request"
+INFO [05-04|15:12:42.167] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=8.677ms     mgasps=0.000 number=1625 hash="ea65b0…6ebeb0" dirty=0.00B
+INFO [05-04|15:12:42.168] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1625 state="Accept request"
+INFO [05-04|15:12:42.168] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1625 target.round=0 lastProposal.number=1625 lastProposal.hash="ea65b0…6ebeb0"
+INFO [05-04|15:12:42.169] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1625 old.state="Accept request" old.proposer=0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 next.round=0 next.seq=1626 next.proposer=0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+INFO [05-04|15:12:42.169] Commit new mining work                   number=1626 sealhash="32b617…062b72" uncles=0 txs=0 gas=0 fees=0 elapsed=1.116ms
+WARN [05-04|15:12:42.169] Block sealing failed                     err=unauthorized
+INFO [05-04|15:12:52.134] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=41.088ms    mgasps=0.000 number=1627 hash="68ddea…784cdb" dirty=0.00B
+INFO [05-04|15:12:52.149] Commit new mining work                   number=1628 sealhash="a0fb78…8e7db4" uncles=0 txs=0 gas=0 fees=0 elapsed=4.510ms
+INFO [05-04|15:12:57.197] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=7.756ms     mgasps=0.000 number=1628 hash="0122dd…57f078" dirty=0.00B
+INFO [05-04|15:13:02.342] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1629 old.state="Accept request" old.proposer=0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 next.round=0 next.seq=1630 next.proposer=0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+INFO [05-04|15:13:07.125] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=13.184ms    mgasps=0.000 number=1630 hash="7ac341…e61fde" dirty=0.00B
+INFO [05-04|15:13:07.128] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1630 state="Accept request"
+INFO [05-04|15:13:12.486] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1631 state="Accept request"
+INFO [05-04|15:13:12.492] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1631 target.round=0 lastProposal.number=1631 lastProposal.hash="b61859…527967"
+INFO [05-04|15:13:17.882] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1632 target.round=0 lastProposal.number=1632 lastProposal.hash="d94e1b…2233f7"
+INFO [05-04|15:13:17.887] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1632 old.state="Accept request" old.proposer=0xcE412f988377e31F4d0fF12d74df73B51C42d0cA next.round=0 next.seq=1633 next.proposer=0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+INFO [05-04|15:13:22.409] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=84.868ms    mgasps=0.000 number=1633 hash="30b0b5…6e246f" dirty=0.00B
+INFO [05-04|15:13:22.600] Commit new mining work                   number=1634 sealhash="1bd03a…89a79f" uncles=0 txs=0 gas=0 fees=0 elapsed=70.050ms
+INFO [05-04|15:13:27.463] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=54.673ms    mgasps=0.000 number=1634 hash="4b82dd…76c12c" dirty=0.00B
+INFO [05-04|15:13:27.505] Commit new mining work                   number=1635 sealhash="ebaffc…780fb6" uncles=0 txs=0 gas=0 fees=0 elapsed=40.626ms
+WARN [05-04|15:13:27.506] Block sealing failed                     err=unauthorized
+INFO [05-04|15:13:32.177] Commit new mining work                   number=1636 sealhash="bce9ac…5071c0" uncles=0 txs=0 gas=0 fees=0 elapsed=2.026ms
+INFO [05-04|15:13:37.254] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=39.526ms    mgasps=0.000 number=1636 hash="d2c879…e2d5b0" dirty=0.00B
+INFO [05-04|15:13:37.263] Commit new mining work                   number=1637 sealhash="27d17b…f0c2e2" uncles=0 txs=0 gas=0 fees=0 elapsed=8.296ms
+INFO [05-04|15:13:42.523] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=38.960ms    mgasps=0.000 number=1637 hash="980c58…ce5671" dirty=0.00B
+INFO [05-04|15:13:42.531] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1637 old.state="Accept request" old.proposer=0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 next.round=0 next.seq=1638 next.proposer=0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+INFO [05-04|15:13:42.548] Commit new mining work                   number=1638 sealhash="c55c73…cd224c" uncles=0 txs=0 gas=0 fees=0 elapsed=23.902ms
+INFO [05-04|15:13:47.222] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=1.758ms     mgasps=0.000 number=1638 hash="84ee0b…914fec" dirty=0.00B
+INFO [05-04|15:13:47.234] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1638 old.state="Accept request" old.proposer=0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a next.round=0 next.seq=1639 next.proposer=0x98C1334496614aED49d2E81526D089f7264fED9C next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+INFO [05-04|15:13:47.236] Commit new mining work                   number=1639 sealhash="e68306…d06bb7" uncles=0 txs=0 gas=0 fees=0 elapsed=3.332ms
+WARN [05-04|15:13:47.236] Block sealing failed                     err=unauthorized
+INFO [05-04|15:13:52.303] Commit new mining work                   number=1640 sealhash="0a3073…097bb3" uncles=0 txs=0 gas=0 fees=0 elapsed="652.607µs"
+INFO [05-04|15:13:52.303] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1639 state="Accept request"
+INFO [05-04|15:13:57.344] Commit new mining work                   number=1641 sealhash="81fad5…af86b7" uncles=0 txs=0 gas=0 fees=0 elapsed=99.057ms
+INFO [05-04|15:14:02.448] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=34.472ms    mgasps=0.000 number=1641 hash="6901fc…e697ad" dirty=0.00B
+INFO [05-04|15:14:02.454] Commit new mining work                   number=1642 sealhash="457f07…be884d" uncles=0 txs=0 gas=0 fees=0 elapsed=2.760ms
+INFO [05-04|15:14:07.266] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=22.916ms    mgasps=0.000 number=1642 hash="ab38cd…c4e8b6" dirty=0.00B
+INFO [05-04|15:14:07.267] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1642 state="Accept request"
+INFO [05-04|15:14:07.267] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1642 target.round=0 lastProposal.number=1642 lastProposal.hash="ab38cd…c4e8b6"
+INFO [05-04|15:14:07.271] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1642 old.state="Accept request" old.proposer=0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a next.round=0 next.seq=1643 next.proposer=0x98C1334496614aED49d2E81526D089f7264fED9C next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+INFO [05-04|15:14:07.273] Commit new mining work                   number=1643 sealhash="4abd80…4f9e6a" uncles=0 txs=0 gas=0 fees=0 elapsed=6.902ms
+WARN [05-04|15:14:07.278] Block sealing failed                     err=unauthorized
+WARN [05-04|15:14:12.377] Block sealing failed                     err=unauthorized
+INFO [05-04|15:14:17.224] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1644 target.round=0 lastProposal.number=1644 lastProposal.hash="29c013…bbc5f3"
+INFO [05-04|15:14:17.252] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1644 old.state="Accept request" old.proposer=0xcE412f988377e31F4d0fF12d74df73B51C42d0cA next.round=0 next.seq=1645 next.proposer=0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+INFO [05-04|15:14:22.446] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=9.188ms     mgasps=0.000 number=1645 hash="018aad…ff522c" dirty=0.00B
+INFO [05-04|15:14:22.447] Commit new mining work                   number=1646 sealhash="6f643f…261382" uncles=0 txs=0 gas=0 fees=0 elapsed="431.115µs"
+INFO [05-04|15:14:27.534] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1646 state="Accept request"
+INFO [05-04|15:14:27.535] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1646 target.round=0 lastProposal.number=1646 lastProposal.hash="30612b…af8d63"
+INFO [05-04|15:14:27.550] Commit new mining work                   number=1647 sealhash="935e92…4c1e5d" uncles=0 txs=0 gas=0 fees=0 elapsed=16.679ms
+INFO [05-04|15:14:42.395] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed="998.086µs" mgasps=0.000 number=1649 hash="a22d9a…dad7cf" dirty=0.00B
+INFO [05-04|15:14:47.490] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=34.653ms    mgasps=0.000 number=1650 hash="ee75b3…05f64b" dirty=0.00B
+INFO [05-04|15:14:52.797] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=31.229ms    mgasps=0.000 number=1651 hash="6533e4…523e3c" dirty=0.00B
+INFO [05-04|15:15:02.680] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=1.031ms     mgasps=0.000 number=1653 hash="b63c98…bd2786" dirty=0.00B
+INFO [05-04|15:15:08.046] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=6.555ms     mgasps=0.000 number=1654 hash="ab24ef…ef0f53" dirty=0.00B
+INFO [05-04|15:15:12.388] Commit new mining work                   number=1656 sealhash="fe85f6…870478" uncles=0 txs=0 gas=0 fees=0 elapsed=14.329ms
+INFO [05-04|15:15:17.681] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1656 state="Accept request"
+INFO [05-04|15:15:22.395] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=100.778ms   mgasps=0.000 number=1657 hash="8a6d92…4795ee" dirty=0.00B
+INFO [05-04|15:15:27.448] Commit new mining work                   number=1659 sealhash="a3a098…25951a" uncles=0 txs=0 gas=0 fees=0 elapsed=17.085ms
+INFO [05-04|15:15:32.355] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=9.330ms     mgasps=0.000 number=1659 hash="58f64e…4ebcc3" dirty=0.00B
+INFO [05-04|15:15:32.357] Commit new mining work                   number=1660 sealhash="bbf114…039115" uncles=0 txs=0 gas=0 fees=0 elapsed="878.428µs"
+INFO [05-04|15:15:37.825] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=100.291ms   mgasps=0.000 number=1660 hash="4120e4…f5336c" dirty=0.00B
+INFO [05-04|15:15:42.290] Commit new mining work                   number=1662 sealhash="c97bab…97cea9" uncles=0 txs=0 gas=0 fees=0 elapsed=1.041ms
+WARN [05-04|15:15:42.291] Block sealing failed                     err=unauthorized
+INFO [05-04|15:15:42.291] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1661 state="Accept request"
+INFO [05-04|15:15:42.291] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1661 target.round=0 lastProposal.number=1661 lastProposal.hash="2bdac4…e667bd"
+INFO [05-04|15:15:42.291] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1661 old.state="Accept request" old.proposer=0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 next.round=0 next.seq=1662 next.proposer=0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+INFO [05-04|15:15:52.431] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=1.412ms     mgasps=0.000 number=1663 hash="c76c5e…27cba9" dirty=0.00B
+INFO [05-04|15:15:57.728] Commit new mining work                   number=1665 sealhash="1c347e…b17c40" uncles=0 txs=0 gas=0 fees=0 elapsed="394.57µs"
+INFO [05-04|15:16:02.675] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1665 state="Accept request"
+INFO [05-04|15:16:02.697] Commit new mining work                   number=1666 sealhash="325d75…61a938" uncles=0 txs=0 gas=0 fees=0 elapsed=46.719ms
+INFO [05-04|15:16:02.721] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1665 target.round=0 lastProposal.number=1665 lastProposal.hash="357b57…edcc69"
+INFO [05-04|15:16:12.329] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=101.780ms   mgasps=0.000 number=1667 hash="20d429…d07c96" dirty=0.00B
+INFO [05-04|15:16:22.253] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1669 state="Accept request"
+INFO [05-04|15:16:27.280] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=36.778ms    mgasps=0.000 number=1670 hash="380128…9cbe4d" dirty=0.00B
+WARN [05-04|15:16:27.321] Block sealing failed                     err=unauthorized
+INFO [05-04|15:16:32.364] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=19.734ms    mgasps=0.000 number=1671 hash="505ed8…7d0852" dirty=0.00B
+INFO [05-04|15:16:32.394] Commit new mining work                   number=1672 sealhash="0cb09a…0fe9d3" uncles=0 txs=0 gas=0 fees=0 elapsed=24.518ms
+INFO [05-04|15:16:37.091] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1672 state="Accept request"
+INFO [05-04|15:16:37.102] Commit new mining work                   number=1673 sealhash="567472…981cb5" uncles=0 txs=0 gas=0 fees=0 elapsed=10.766ms
+WARN [05-04|15:16:37.111] Block sealing failed                     err=unauthorized
+INFO [05-04|15:16:42.066] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=1.529ms     mgasps=0.000 number=1673 hash="fe6038…b24996" dirty=0.00B
+WARN [05-04|15:16:42.090] Block sealing failed                     err=unauthorized
+INFO [05-04|15:16:52.089] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1675 state="Accept request"
+INFO [05-04|15:16:52.089] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1675 target.round=0 lastProposal.number=1675 lastProposal.hash="9b798a…104fd2"
+WARN [05-04|15:16:52.093] Block sealing failed                     err=unauthorized
+INFO [05-04|15:16:57.052] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=14.258ms    mgasps=0.000 number=1676 hash="40ce8c…6f2fd6" dirty=0.00B
+INFO [05-04|15:17:02.071] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1677 state="Accept request"
+INFO [05-04|15:17:27.055] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=1.032ms     mgasps=0.000 number=1680 hash="759643…21dbf7" dirty=0.00B
+INFO [05-04|15:17:27.158] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1681 target.round=0 lastProposal.number=1681 lastProposal.hash="26e4d3…cacf0e"
+INFO [05-04|15:17:32.051] Commit new mining work                   number=1683 sealhash="20ae16…3697be" uncles=0 txs=0 gas=0 fees=0 elapsed="299.629µs"
+INFO [05-04|15:17:47.036] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=1.060ms     mgasps=0.000 number=1685 hash="468cc8…c77fef" dirty=0.00B
+INFO [05-04|15:17:52.018] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed="635.907µs" mgasps=0.000 number=1686 hash="29f479…52f65e" dirty=0.00B
+INFO [05-04|15:17:57.090] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1687 state="Accept request"
+INFO [05-04|15:17:57.090] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1687 target.round=0 lastProposal.number=1687 lastProposal.hash="bcbf2e…39facc"
+INFO [05-04|15:17:57.090] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1687 old.state="Accept request" old.proposer=0xcE412f988377e31F4d0fF12d74df73B51C42d0cA next.round=0 next.seq=1688 next.proposer=0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+INFO [05-04|15:18:02.034] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1688 old.state="Accept request" old.proposer=0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 next.round=0 next.seq=1689 next.proposer=0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+WARN [05-04|15:18:02.034] Block sealing failed                     err=unauthorized
+INFO [05-04|15:18:07.042] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=3.034ms     mgasps=0.000 number=1689 hash="bcd714…11397d" dirty=0.00B
+INFO [05-04|15:18:12.041] Commit new mining work                   number=1691 sealhash="e02d85…3dbd44" uncles=0 txs=0 gas=0 fees=0 elapsed="701.344µs"
+INFO [05-04|15:18:17.022] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=1.061ms     mgasps=0.000 number=1691 hash="86beed…0f4c5e" dirty=0.00B
+INFO [05-04|15:18:22.027] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed="682.637µs" mgasps=0.000 number=1692 hash="30eb1d…d17b6b" dirty=0.00B
+INFO [05-04|15:18:22.029] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1692 state="Accept request"
+INFO [05-04|15:18:27.026] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=2.092ms     mgasps=0.000 number=1693 hash="c95ef5…e67d35" dirty=0.00B
+INFO [05-04|15:18:27.028] QBFT: handle final committed             address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1693 state="Accept request"
+INFO [05-04|15:18:32.029] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=1.890ms     mgasps=0.000 number=1694 hash="a2388e…093e64" dirty=0.00B
+WARN [05-04|15:18:32.033] Block sealing failed                     err=unauthorized
+INFO [05-04|15:18:37.071] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=5.156ms     mgasps=0.000 number=1695 hash="ce8afd…1cb3d7" dirty=0.00B
+INFO [05-04|15:18:52.063] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=8.616ms     mgasps=0.000 number=1698 hash="d04a95…8853bb" dirty=0.00B
+INFO [05-04|15:18:57.015] Commit new mining work                   number=1700 sealhash="6681d1…52873c" uncles=0 txs=0 gas=0 fees=0 elapsed="380.412µs"
+INFO [05-04|15:18:57.017] QBFT: start new round                    address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 old.round=0  old.sequence=1699 old.state="Accept request" old.proposer=0xcE412f988377e31F4d0fF12d74df73B51C42d0cA next.round=0 next.seq=1700 next.proposer=0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 next.valSet="[0x27A97C9AaF04f18f3014c32e036dD0Ac76Da5f18 0x93917cADBace5dFCE132B991732c6Cda9bcC5B8a 0x98C1334496614aED49d2E81526D089f7264fED9C 0xcE412f988377e31F4d0fF12d74df73B51C42d0cA]" next.size=4 next.IsProposer=false
+INFO [05-04|15:19:02.037] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.519ms     mgasps=0.000 number=1700 hash="9a65dc…046972" dirty=0.00B
+INFO [05-04|15:19:02.039] Commit new mining work                   number=1701 sealhash="b51eed…de157e" uncles=0 txs=0 gas=0 fees=0 elapsed="324.488µs"
+INFO [05-04|15:19:07.027] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed="782.117µs" mgasps=0.000 number=1701 hash="558938…fde008" dirty=0.00B
+INFO [05-04|15:19:07.029] QBFT: initialize new round               address=0x401BDFcd9221CD790E7cd66EeCE303eD4D4B53B1 current.round=0 current.sequence=1701 target.round=0 lastProposal.number=1701 lastProposal.hash="558938…fde008"
+INFO [05-04|15:19:07.480] Got interrupt, shutting down... 
+INFO [05-04|15:19:07.481] HTTP server stopped                      endpoint=[::]:8545
+INFO [05-04|15:19:07.485] HTTP server stopped                      endpoint=[::]:8546
